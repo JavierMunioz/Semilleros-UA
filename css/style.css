@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.nav {
+    background-color: #1801FF;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: #ffffff;
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    transition: all linear .3s;
+    color: #F4C300;
+}
+
+.header {
+    background-image: url("../img/background-header.png");
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 7rem;
+}
+
+.header h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.contenedor {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+    
+}
+
+.logo {
+    width: 15rem;
+    margin: .5rem;
+}
+
+.separacion {
+    background-color: #F4C300;
+    width: 100vw;
+    height: 4vh;
+}
+
+.leyenda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.leyenda p {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.leyenda h2 {
+    font-size: xx-large;
+    margin: 1rem;
+}
+
+.facultades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4C300;
+    width: 30vw;
+    padding: 12px;
+    border-radius: 25px;
+    transition: all linear .3s;
+}
+
+.img-facu {
+    width: 12rem;
+    margin: 1rem;
+}
+
+.container-card p {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.container-card:hover {
+    transform: scale(1.03);
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
