@@ -30,17 +30,17 @@
         </article> -->
         <article class="facultades">
           
-            <div class="container-card">
+            <div class="container-card" onclick="showIframe('./pdf/ingenieria.pdf')">
                 <img src="./img/ingenierias.png" class="img-facu" alt="">
                 <p>Ingenieria De Sistemas</p>
             </div>
 
-            <div class="container-card">
+            <div class="container-card" onclick="showIframe('./pdf/humanidades.pdf')">
                 <img src="./img/humanidades.png" class="img-facu" alt="">
                 <p>Humanidades y Ciencias Sociales</p>
             </div>
 
-            <div class="container-card">
+            <div class="container-card" onclick="showIframe('./pdf/contabilidad.pdf')">
                 <img src="./img/contablilidad.png" class="img-facu" alt="">
                 <p>Ciencias Economicas, Administrativas y Contables</p>
             </div>
@@ -49,6 +49,10 @@
     <footer>
 
     </footer>
+    <div id="frame-container" class="frame-container">
+        <button class="close-button" id="close-button" onclick="closeIframe()">X</button>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
